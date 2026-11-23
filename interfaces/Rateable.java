@@ -1,7 +1,9 @@
 package interfaces;
 public interface Rateable {
     
-    void assignRatings();
-
+    void rate(double stars);
+    boolean isRated();
+    String displayRating();
+    int compareRatingTo(Rateable other);
     
 }
