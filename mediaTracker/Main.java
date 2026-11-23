@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("=== MEDIA TRACKER TEST ===");
+        System.out.println("=== MEDIA TRACKER TESTS ===");
 
         Book book = new Book(
             "The Hunger Games",
